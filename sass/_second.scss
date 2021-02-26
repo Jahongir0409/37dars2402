@@ -1,0 +1,125 @@
+.second-page {
+	&-wrapper {
+		width: 900px;
+		margin-left: 170px;
+		display: flex;
+		padding: 150px 0;
+		align-items: center;
+		.second-page-left {
+
+			.heading-primary-second {
+				font-size: 60px;
+				line-height: 70px;
+				letter-spacing: -1.87579px;
+				color: #19191B;
+				margin: 0;
+				padding: 0;
+				margin-bottom: 22px;
+			}
+			.text-second-page {
+				font-size: 20px;
+				line-height: 39px;
+				letter-spacing: -0.656526px;
+				color: #696871;
+				width: 515px;
+				margin: 0;
+				padding: 0;
+				margin-bottom: 40px;
+				// display: inline-block;
+			}
+			.block-design-link {
+				width: 359px;
+				display: flex;
+				height: 90px;
+				padding: 20px;
+				border: 1px solid #EAE9F2;
+				border-radius: 10px;
+				.left-design-circle{
+					width: 55px;
+					height: 55px;
+					background-color: rgba(240, 64, 55, 0.097195);
+					border-radius: 50%;
+					margin-right: 20px;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					position: relative;
+					&::before {
+						content: '';
+						display: inline-block;
+						width: 14px;
+						height: 17px;
+						background-color: #F04037;
+						border-radius: 1px;
+						position: absolute;
+						z-index: 555;
+						border-right: 2px solid white;
+						border-bottom: 2px solid white;
+					}
+					&::after {
+						content: '';
+						display: inline-block;
+						width: 15px;
+						height: 16px;
+						background-color: #F04037;
+						position: absolute;
+						right: 13px;
+						bottom: 16px;
+						transform: skewX(-10deg);
+
+					}
+				}
+				.heading-tertiary-second-block {
+					width: 240px;
+					font-size: 21px;
+					line-height: 26px;
+					letter-spacing: -0.656526px;
+					color: #19191B;
+					margin: 0;
+					padding: 0;
+					.span-second-design {
+						font-weight: 400;
+						color: #696871;
+						font-size: 20px;
+
+					}
+				}
+			}
+			.mobile-first-design {
+				width: 359px;
+				display: flex;
+				height: 90px;
+				padding: 20px;
+				border: 1px solid #EAE9F2;
+				border-radius: 10px;
+				margin-top: 15px;
+				.left-design-shape {
+					width: 55px;
+					height: 55px;
+					background-color: rgba(240, 64, 55, 0.097195);
+					border-radius: 50%;
+					margin-right: 20px;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					position: relative;
+				}
+				.heading-tertiary-second-mobile{
+					width: 200px;
+					font-size: 21px;
+					line-height: 26px;
+					letter-spacing: -0.656526px;
+					color: #19191B;
+					margin: 0;
+					padding: 0;
+					.span-second-design{
+						font-weight: 400;
+						color: #696871;
+						font-size: 20px;
+					}
+				}
+			}
+		}
+	}
+
+}

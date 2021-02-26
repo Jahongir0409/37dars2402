@@ -1,0 +1,39 @@
+.seventh {
+	background-color: #5454D4;
+}
+.seventh-page{
+	&-wrapper {
+		width: 1000px;
+		margin-right: auto;
+		margin-left: auto;
+		padding: 100px 0;
+		display: flex;
+		align-items: center;
+
+		.heading-primary-seventh {
+			font-size: 60px;
+			line-height: 70px;
+			letter-spacing: -1.87579px;
+			color: #FFFFFF;
+			width: 600px;
+			margin: 0;
+			padding: 0;
+			margin-right: 200px;
+		}
+		.link-seventh {
+			align-items: center;
+			display: flex;
+			justify-content: center;
+			width: 200px;
+			height: 60px;
+			background: #FEDC5A;
+			border: 1px solid #F0C931;
+			border-radius: 5px;
+			font-size: 21px;
+			line-height: 25px;
+			text-align: center;
+			letter-spacing: -0.656526px;
+			color: rgba(0, 0, 0, 0.788926);
+		}
+	}
+}
